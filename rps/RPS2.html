@@ -1,0 +1,40 @@
+<!doctype html>
+<!--MARCUS TA-->
+<html>
+<link rel="stylesheet" href="css/thecss2.css">
+<head>
+<meta charset="utf-8">
+<title>RPS Game</title>
+</head>
+	<body>
+
+	<div id= "wrapper"> 
+<!--		Using ID's like Wrapper is easier to adjust in CSS-->
+<div class= "button">   
+		
+		 <p id="demo"></p>
+	
+		</div>
+	 <section>
+		<h1> YOU </h1>
+		<button onclick="myFunction()"><img src="images/rock_user.jpg" class="human" alt="rock photo"></button>
+		<button onclick="myFunction()"><img src="images/paper_user.jpg" class="human" alt="paper photo"> </button>
+		 <button onclick="myFunction()"><img src="images/sciss_user.jpg" class="human" alt="scissor photo"> </button>
+	</section>
+<!--	Two sections, one for my photos like it was referenced in the zoom session, and below is the computer-->
+	<section>
+
+		<h1> Rock Paper Scissors World Champion  </h1>
+		<button onclick="myFunction()"><img src="images/rock_computer.jpg" class="computer" alt="rock photo">
+		<button onclick="myFunction()"><img src="images/paper_computer.jpg" class="computer" alt="paper photo">
+		<button onclick="myFunction()"><img src="images/sciss_computer.jpg" class="computer" alt="scissor photo"> 
+<!--	even though I am using a button counter, it has a 10 click limit that will route me to the end screen page.-->
+<!--			I could not figure out how to tally the score-->
+	</section>
+	
+	</div>
+	<script src="js/js.js"> </script> 
+<!--			this will be referring to the JS functions -->
+		
+	</body>
+</html>
